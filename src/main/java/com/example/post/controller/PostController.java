@@ -13,7 +13,7 @@ import com.example.post.service.PostService;
 import com.example.post.vo.PostVO;
 
 @Controller
-@RequestMapping("/old_post")
+@RequestMapping("/old_post"	)
 public class PostController {
 	@Autowired
 	private PostService postService;
